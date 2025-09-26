@@ -1,0 +1,18 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Node.js
+node_modules/
+
+# Build / output
+/dist/
+/build/
