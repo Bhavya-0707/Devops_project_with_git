@@ -18,3 +18,21 @@ git remote add origin https://github.com/Bhavya-0707/Devops_project_with_git/tre
 # Push to GitHub
 git branch -M main
 git push -u origin main
+
+MAIN USES OF .gitignore
+
+Avoid committing unnecessary files
+
+Example: log files, temporary build files, OS-generated files (.DS_Store, Thumbs.db).
+
+Keep repo clean and lightweight
+
+Prevents large or auto-generated files (like node_modules, compiled binaries, dist/) from bloating the repository.
+
+Improve security
+
+Helps avoid accidentally pushing sensitive files like .env (with passwords, API keys) to GitHub.
+
+Consistency across team
+
+Everyone working on the repo ignores the same unnecessary files.
